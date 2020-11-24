@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#bg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#bg img{
+    height: 150vh;
+    width: 100%;
+    -webkit-filter: blur(20px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+#container{
+    display: flex;
+    /* top: 50%; */
+    position: absolute;
+    top: -24px;
+    left: 42.6%;
+    color: white;
+    margin-top: 35px;
+    border-radius: 50px;
+    cursor:pointer ;
+    
+
+}
+#h-primary{
+    
+    padding: 6px 24.3px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 34.3px;
+    margin: 2px;
+    
+}
+
+
+#layer{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .2);
+}
+#main{
+width: 25%;
+background-color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 15px;
+transform: translate(-50%,-50%);
+z-index: 99;
+}
+#image img{
+    height: 180.9px;
+    width: 100%;
+    margin-top: -5px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    /* -webkit-filter: blur(1px); */
+}
+#player{
+    padding: 25px;
+    color: #333;
+
+}
+#songTitle{
+    width: 300px;
+    position: absolute;
+    margin: 3px 44px;
+    transform: translate(-50px, -50px);
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    cursor: pointer;
+}
+#songTitle:hover{
+    color: teal;
+
+  
+  }
+#buttons{
+    height: 50%;
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#play{
+    height: 51.7%;
+    width: 19.6%;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: salmon;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+
+}
+#play:hover{
+  color: teal;
+  background-color: black;
+
+}
+
+#next{
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: salmon;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+#next:hover{
+    color: teal;
+    background-color: black;
+  
+  }
+
+#pre{
+    width: 30px;
+    height: 30px;
+    left: 30%;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: salmon;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+#pre:hover{
+    color: teal;
+    background-color: black;
+  
+  }
+
+#play img, #next img, #pre img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#fill{
+    height: 5px;
+    background-color: salmon;
+    border-radius: 20px;
+  
+}
+
+#handle{
+    height: 8px;
+    width: 8px;
+    background-color: salmon;
+    border-radius: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    transform: scale(2);
+}
+.center{
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+/* margin-top: 90%; */
+    /* margin-top: 39px; */
+    display: flex;
+    position: absolute;
+    top: 94.5%;
+    left:30%;
+    /* text-align: center; */
+    /* justify-content: center; */
+    font-size: 25px;
+}
+
